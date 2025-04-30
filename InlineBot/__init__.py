@@ -4,15 +4,15 @@
 
 import os
 
-API_HASH = os.environ.get("API_HASH", "")
-APP_ID = int(os.environ.get("APP_ID", ""))
-DB_URI = os.environ.get("DATABASE_URL", "")
-BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
+API_HASH = os.environ.get("API_HASH", "15afc60d067490eee8d34112487ac829")
+APP_ID = int(os.environ.get("APP_ID", "28429143"))
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://roninfx768:roninfx768@cluster0.2d4kvnx.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "8030877915:AAHBVkCaIp8UpNfsMKs9WZ387Ij5KzBf5to")
 TG_BOT_WORKERS = int(os.environ.get("BOT_WORKERS", '4'))
-DB_NAME = os.environ.get("DATABASE_NAME", "InlineFilterBot")
+DB_NAME = os.environ.get("DATABASE_NAME", "roninfx768")
 thumb = os.environ.get('THUMBNAIL_URL', 'https://telegra.ph/file/516ca261de9ebe7f4ffe1.jpg')
-OWNER_ID = int(os.environ.get('OWNER_ID'))
-CUSTOM_START_MESSAGE = os.environ.get('START_MESSAGE','')
+OWNER_ID = int(os.environ.get('OWNER_ID', "721038949"))
+CUSTOM_START_MESSAGE = os.environ.get('START_MESSAGE','hi')
 FILTER_COMMAND = os.environ.get('FILTER_COMMAND', 'add')
 DELETE_COMMAND = os.environ.get('DELETE_COMMAND', 'del')
 IS_PUBLIC = True if os.environ.get('IS_PUBLIC', 'True').lower() != 'false' else False
